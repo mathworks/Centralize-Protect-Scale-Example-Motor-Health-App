@@ -1,0 +1,40 @@
+// Function Signatures
+// To optionally specify argument types and/or sizes, search for "type"
+// and insert the appropriate specifiers inside the brackets. For example:
+//
+//    "type": ["double", "size=1,1"]
+//
+// To modify function or parameter help text, search for "purpose" and edit
+// the values.
+//
+// JSON-formatted text below this line.
+{
+    "_schemaVersion": "1.1.0",
+    "processMotorData": {
+        "inputs": [
+            {
+                "name": "data",
+                "type": [],
+                "purpose": ""
+            },
+            {
+                "name": "initState",
+                "type": [],
+                "purpose": ""
+            }
+        ],
+        "outputs": [
+            {
+                "name": "rul",
+                "type": [],
+                "purpose": ""
+            },
+            {
+                "name": "anomaly",
+                "type": [],
+                "purpose": ""
+            }
+        ],
+        "purpose": " processMotorData Compute remaining useful life for a given motor, and scan\n the motor data for anomalies.\n \n    [rul, anomaly] = processMotorData(data, initState) feeds DATA into\n    motor-specific machine learning models and returns the remaining useful\n    lifetime (RUL) and any anomalies detected (ANOMALY). \n \n  DATA, RUL and ANOMALY are structure arrays suitable for conversion into\n  timetables. \n \n     DATA fields:\n        variables: Names of the columns in VALUES.\n        values   : Motor data matrix. Each row a single observation.\n        timestamp: Timestamps of the observations in VALUES.\n \n     RUL fields:\n        EstimatedRUL: Estimated remaining useful life at time Time.\n        LowCI       : Lower bound of confidence interval at Time.\n        HighCI      : Upper bound of confidence interval at Time.\n        Time        : \n \n     ANOMALY fields:\n        Anomaly: Boolean, true if anomaly occured at time Time.\n        Score  : Data's \"anomaly\" score. \n        Time   : Millisecond-resolution\n"
+    }
+}
