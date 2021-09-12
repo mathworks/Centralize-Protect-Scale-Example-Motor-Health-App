@@ -4,7 +4,7 @@ Source code for MotorHealth app used in the News and Notes article: "Centralize,
 
 <!--- If your project includes a visualation or any images or an App please include a screenshot in this README --->
 
-[Motor8.png]
+![Motor Health App](Motor8.png)
 
 <!--- Markdown supports the following HTML entities: © - &copy;  ® - &reg;  ™ - &trade;
 More information about Trademarks can be found internally within the Checklist for Community Contributions and Supportfiles Confluence page--->
