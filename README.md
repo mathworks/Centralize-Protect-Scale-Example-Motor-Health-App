@@ -1,6 +1,6 @@
 # Motor Health App for "Centralize, Protect and Scale" News and Notes article
 
-Source code for MotorHealth app used in the News and Notes article: "Centralize, Protect, and Scale Your Algorithms for Enterprise Deployment". The application demonstrates how to connect your MATLAB© desktop to an algorithm deployed on MATLAB Production Server.
+Source code for MotorHealth app used in the News and Notes article: "Centralize, Protect, and Scale Your Algorithms for Enterprise Deployment". The application demonstrates how to connect your MATLAB® desktop to an algorithm deployed on MATLAB Production Server.
 
 <!--- If your project includes a visualation or any images or an App please include a screenshot in this README --->
 
@@ -30,7 +30,7 @@ Requires MATLAB release R2020b or newer
 
 ## License
 <!--- Make sure you have a License.txt within your Repo --->
-XSLA © 2021 The MathWorks, Inc.
+See the license.txt file included with this repository.
 
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
