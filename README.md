@@ -21,7 +21,7 @@ To Run:
 
 See the included ReadMe.txt for additional details on install and setup.
 
-### MathWorks Products (http://www.mathworks.com)
+### MathWorks Products (https://www.mathworks.com)
 
 Requires MATLAB release R2020b or newer
 - [MATLAB Compiler SDK](https://www.mathworks.com/products/matlab-compiler-sdk.html)
